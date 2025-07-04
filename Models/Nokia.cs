@@ -8,7 +8,17 @@ namespace DesafioPOO.Models
 
         public override void InstalarAplicativo(string nomeApp)
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"Nokia - Instalando aplicativo {nomeApp}");
+        }
+
+        public override void Ligar()
+        {
+            Console.WriteLine("Nokia - Ligando...");
+        }
+
+        public override void ReceberLigacao()
+        {
+            Console.WriteLine("Nokia - Recebendo ligação...");
         }
     }
 }

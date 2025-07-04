@@ -8,7 +8,17 @@ namespace DesafioPOO.Models
 
         public override void InstalarAplicativo(string nomeApp)
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"Iphone - Instalando aplicativo {nomeApp}");
+        }
+
+        public override void Ligar()
+        {
+            Console.WriteLine("Iphone - Ligando...");
+        }
+
+        public override void ReceberLigacao()
+        {
+            Console.WriteLine("Iphone - Recebendo ligação...");
         }
     }
 }
